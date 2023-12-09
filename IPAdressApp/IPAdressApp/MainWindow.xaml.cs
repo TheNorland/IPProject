@@ -58,7 +58,7 @@ namespace IPAddressApp
         {
             try
             {
-                string serverUrl = "https://your-vercel-app.vercel.app/receive-ip"; // Replace with your Vercel app URL
+                string serverUrl = "ipproject-eta.vercel.app"; // Replace with your Vercel app URL
 
                 using (HttpClient client = new HttpClient())
                 {
