@@ -1,8 +1,5 @@
 {
   "functions": {
-    "api/index.js": {
-      "runtime": "nodejs12.x",
-      "maxDuration": 30
-    }
+    "api": "index.js"
   }
 }
