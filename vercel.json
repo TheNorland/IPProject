@@ -1,9 +1,9 @@
 {
   "functions": {
     "api": {
-      "runtime": "nodejs14.x",
+      "runtime": "nodejs18.x",
       "memory": 1024,
-      "maxDuration": 30
+      "maxDuration": 10
     }
   }
 }
