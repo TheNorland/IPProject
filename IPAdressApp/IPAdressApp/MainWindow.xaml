@@ -1,9 +1,0 @@
-﻿<Window x:Class="IPAddressApp.MainWindow"
-        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="IP Address App" Height="350" Width="525">
-    <Grid>
-        <!-- Add a label to display the IP address -->
-        <Label x:Name="ipAddressLabel" Content="Your IP Address: " HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,10,0,0"/>
-    </Grid>
-</Window>
