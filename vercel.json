@@ -1,5 +1,16 @@
 {
   "functions": {
-    "api": "index.js"
+    "api": {
+      "handler": "index.handler",
+      "runtime": "nodejs14.x",
+      "events": [
+        {
+          "http": {
+            "method": "POST",
+            "path": "/receive-ip"
+          }
+        }
+      ]
+    }
   }
 }
