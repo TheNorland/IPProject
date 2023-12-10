@@ -1,17 +1,16 @@
 {
   "name": "my-vercel-app",
   "version": "1.0.0",
-  "description": "test",
+  "description": "Your project description",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "engines": {
-    "node": "18.x"
+    "node": "14.x"
   },
   "dependencies": {
-    "express": "^4.17.1"
-
+    "express": "^4.17.1" // Add other dependencies as needed
   },
   "devDependencies": {},
   "keywords": [],
